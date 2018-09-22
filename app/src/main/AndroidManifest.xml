@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manik.googledoodle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_doodle_icon_blue"
+        android:label="@string/app_name"
+        android:theme="@style/AppHomeTheme"
+        android:supportsRtl="true">
+        <activity android:name=".HomePage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SaveAudio"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PreviousRecords"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".IntroManager"
+            android:screenOrientation="portrait"/>
+        <provider
+            android:authorities="com.example.manik.googledoodle"
+            android:name=".data.AudioProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

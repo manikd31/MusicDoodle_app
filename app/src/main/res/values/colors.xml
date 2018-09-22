@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#001B36</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="bgGreen">#4DA5D6A7</color>
+    <color name="bgOrange">#4DFFCC80</color>
+    <color name="bgBlueGray">#4DB0BEC5</color>
+    <color name="bgCyan">#4D80DEEA</color>
+    <color name="bgPurple">#4DCE93D8</color>
+    <color name="bgIndigo">#4D9FA8DA</color>
+    <color name="bgRed">#4DEF9A9A</color>
+    <color name="bgBrown">#4DBCAAA4</color>
+    <color name="bgPink">#4DF48FB1</color>
+    <color name="bgDeepPurple">#4DB39DDB</color>
+    <color name="bgYellow">#4DFFF59D</color>
+
+    <color name="homeBg1">#99E8EAF6</color>
+    <color name="homeBg2">#99C5CAE9</color>
+    <color name="homeBg3">#999FA8DA</color>
+    <color name="homeBg4">#997986CB</color>
+    <color name="homeBg5">#995C6BC0</color>
+    <color name="homeBg6">#993F51B5</color>
+    <color name="homeBg7">#993949AB</color>
+    <color name="homeBg8">#99303F9F</color>
+    <color name="homeBg9">#99283593</color>
+    <color name="homeBg10">#991A237E</color>
+
+    <color name="dot_active">#CC1A237E</color>
+    <color name="dot_inactive">#331A237E</color>
+
+    <color name="info_head">#FFC107</color>
+    <color name="info_detail">#546E7A</color>
+    <color name="info_optional">#B39DDB</color>
+
+</resources>

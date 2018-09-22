@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home_background"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/recordings_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/recordings_str"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/delete_all_records"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_delete_previous_records_white"
+            android:background="@drawable/instrument_circle"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_of_records"
+        android:layout_below="@+id/delete_layout"/>
+    
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        
+        <ImageView
+            android:id="@+id/empty_view_image"
+            android:layout_width="150sp"
+            android:layout_height="120sp"
+            android:src="@drawable/ic_empty_audio_list"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10sp"/>
+
+        <TextView
+            android:id="@+id/empty_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_view_desc_1"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/empty_view_image"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/empty_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_view_desc_2"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/empty_1"
+            android:fontFamily="sans-serif-condensed"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

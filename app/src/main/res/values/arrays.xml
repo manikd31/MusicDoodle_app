@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="array_tempo_options">
+        <item>@string/msec_1000</item>
+        <item>@string/msec_750</item>
+        <item>@string/msec_500</item>
+        <item>@string/msec_250</item>
+        <item>@string/msec_100</item>
+    </string-array>
+</resources>
